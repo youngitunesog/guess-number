@@ -5,10 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="StyleSheet" href="guess.css" >
-    <script src="guess.js" defer></script>
+        <script src="guess.js" defer></script>
+
     <title>Quess Number</title>
 </head>
 <body>
-    
+    <div id="border" >
+        <section>
+          
+            <div id="logo-scores"><span class="span logo">Guess-Number</span><span  class="span scores">Scores : <span id="scores">0</span>
+            </div>
+            <div id="carry">
+                  <div id="wro"><img id="correct" src="./img/correct.png" alt="correct"><img id="wrong" src="./img/wrong.png" alt="wrong"></div>
+                <div id="result"><span>Computer Result</span><span id="res">0</span></div>
+                <div id="form">
+                    <form id="sub">
+                        <label for="gnum">Guess A Number</label><br>
+                        <input id="gnum" type="number"  name="gunm" placeholder="only Valid Number" max="20" min="1"
+                         />
+                         <input id="snum"
+                         type="submit" name="submit" value="Guess"  />
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
 </body>
 </html>

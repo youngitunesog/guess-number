@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./img/demonslayer.jpg);
+    background-size: 100vw 100vh;
+    width: 100%; 
+}
+#border{
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(0.5px);
+    backdrop-filter: blur(0.5px);
+    background-color: rgba(255, 255, 255, 0.4);
+    height: calc(100vh - 20px);
+}
+ section{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: solid yellow;
+height: calc(100vh - 26px);
+margin: 10px 10px 10px 10px;
+overflow: hidden;
+}
+#logo-scores{
+   position: relative;
+   padding: 0;
+   margin: 0;
+   overflow: hidden;
+   background-color: black;
+   width: 100%;
+}
+.span{
+    padding: 14px 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    overflow: hidden;
+    color: aliceblue;
+    display: block;
+    float: left;
+    margin: 5px 5px;
+
+}
+
+#result{
+    width: 100%;
+    height: 200px;
+    margin: 50px 0 0 0;
+    border: solid rgb(100, 86, 86);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(8, 8, 8, 0.692);
+    -webkit-backdrop-filter: blur(80px);
+    -moz-backdrop--filter: blur(80px);
+    backdrop-filter: blur(80px);
+    overflow: hidden;
+}
+#result span{
+    font-size: 30px;
+    color: beige;
+
+}
+#form{
+    width: 100%;
+    height: 200px;
+    border: solid rgb(104, 101, 101);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 15px;
+    margin-left: -8px;
+    background-color: rgba(240, 191, 132, 0.384);
+    -webkit-backdrop-filter: blur(80px);
+    -moz-backdrop--filter: blur(80px);
+    backdrop-filter: blur(80px);
+    overflow: hidden;
+}
+form{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+#gnum{
+    width: 100%;
+    height: 100px;
+    font-size:26px;
+    color: black;
+    text-align: center;
+}
+#gnum:hover{
+   border: solid green;
+}
+#snum{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border: solid;
+    border-radius: 5px;
+}
+
+
+#wro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+height: 30px;
+position: absolute;
+text-align: center;
+width: 220px;
+}
+#wrong{
+    height: 100%;
+    display: none;
+}#correct{
+    display: none;
+    height: 100%;
+}
