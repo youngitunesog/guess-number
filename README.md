@@ -1,6 +1,6 @@
 # guess-number
-Config files for my GitHub profile.
-#about my simple game
+#Config files for my GitHub profile.
+#about my simple game,
 #guess number is just a simple game i made out of boardom, and anyone else can also work on he game and give me some feed back on the game and if there is any bug just let 
 know by chatting me up on LinkedIn.
 #how to play this game.
